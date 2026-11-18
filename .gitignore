@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 模型与数据集（体积大，绝不进仓库）
+*.pt
+*.onnx
+runs/
+datasets/
+weights/
+
+# 密钥与本地配置
+.env
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# 日志与系统文件
+*.log
+.DS_Store
+Thumbs.db
